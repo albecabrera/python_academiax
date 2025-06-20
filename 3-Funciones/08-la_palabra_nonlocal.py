@@ -5,7 +5,7 @@ def funcion_externa():
     
     def funcion_interna():
         nonlocal x
-        x = 1
+        x += 1
         print("Función interna:", x)
         
     funcion_interna()
